@@ -108,8 +108,8 @@ MonoBehaviour:
   heldAngle: 0
   tileWereHolding: {fileID: 0}
   aimDirection: {x: 0, y: 0}
-  pickupSound: {fileID: 0}
-  activateSound: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 0f8eacbce1192824bbf0c615c53ecf60, type: 3}
+  activateSound: {fileID: 8300000, guid: 7479d1fb84c877840b823fc532220a23, type: 3}
   shieldDuration: 0
   shieldActive: 0
   shieldCooldown: 0

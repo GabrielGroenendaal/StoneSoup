@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4689515961091053664
+--- !u!1 &9037646320411658772
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4065078468692733703}
-  - component: {fileID: 2594191967266166553}
+  - component: {fileID: 804979755973786746}
+  - component: {fileID: -809828428117783812}
   m_Layer: 0
-  m_Name: room
+  m_Name: Room_CA3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4065078468692733703
+--- !u!4 &804979755973786746
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4689515961091053664}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 9037646320411658772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2594191967266166553
+--- !u!114 &-809828428117783812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4689515961091053664}
+  m_GameObject: {fileID: 9037646320411658772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64ec1e3658d302b42a915914b21b5837, type: 3}
+  m_Script: {fileID: 11500000, guid: 08104f5df21bd75499ebe123288f569b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   roomAuthor: Gabriel
@@ -48,7 +48,7 @@ MonoBehaviour:
   localTilePrefabs: []
   roomGridX: 0
   roomGridY: 0
-  roomChoices:
-  - {fileID: 3891758123040000731, guid: 39eba1a7a5739514ebdfc9c1bbf35235, type: 3}
-  - {fileID: 7702183651603303962, guid: 66e89dad72d9f3344a741e2ceafd674b, type: 3}
-  - {fileID: 9037646320411658772, guid: a4afc388a114df840b454406b3084956, type: 3}
+  numOfWalls: 0
+  numOfDirects: 8
+  directTile: {fileID: 2040528218348647625, guid: 82bf98c9c7dc7044ba8e3f5d5c15c019,
+    type: 3}

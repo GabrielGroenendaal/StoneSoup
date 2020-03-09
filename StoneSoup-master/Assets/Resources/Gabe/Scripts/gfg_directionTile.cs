@@ -56,9 +56,11 @@ public class gfg_directionTile : Tile
 
     // When we collide with something in the air, we try to deal damage to it.
     public override void tileDetected(Tile otherTile) {
-        float tileDistance = Vector3.Distance(this.transform.position,otherTile.transform.position);
+        //float tileDistance = Vector3.Distance(this.transform.position,otherTile.transform.position);
+        float x_Distance = Mathf.Abs(this.transform.position.x - otherTile.transform.position.x);
+        float y_Distance = Mathf.Abs(this.transform.position.y - otherTile.transform.position.y);
 
-        if (tileDistance < TILE_SIZE) {
+        if (x_Distance < TILE_SIZE *.9 || y_Distance < TILE_SIZE * .9) {
 		    otherTile.addForce(pushForce);
             AudioManager.playAudio(pushSound);
             Debug.Log("push");
